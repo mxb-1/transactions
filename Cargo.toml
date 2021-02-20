@@ -1,0 +1,11 @@
+[package]
+name = "transactions"
+version = "0.1.0"
+authors = ["Matthew Brooks <matt@mattbrooks.ca>"]
+edition = "2018"
+
+[dependencies]
+rust_decimal = "1.10.3"
+anyhow = "1.0.38"
+csv = "1.1.5"
+serde = { version = "1.0.123", features = ["derive"] }
